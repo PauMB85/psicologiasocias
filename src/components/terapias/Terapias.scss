@@ -1,0 +1,26 @@
+@import './../../style/properties';
+
+.Terapias {
+
+    .terapias__title {
+
+    }
+    .terapias__services {
+
+        display: flex;
+        flex-direction: column;
+        @media screen and (min-width: $phone-size) {
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .terapia__services--card {
+            margin:15px auto;
+
+            @media screen and (min-width: $phone-size) {
+                margin:20px;
+                width: 33%;
+            }
+        }
+    }
+    
+}
