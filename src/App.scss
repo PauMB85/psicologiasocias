@@ -1,10 +1,22 @@
+@import './style/properties';
+
 .App {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  
   .wrapper {
-    margin-top:80px;
+    margin-top:30px;
+    @media screen and (min-width: $phone-size) {
+      margin-top:80px;
+    }
+  }
+
+  .flex__end {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
 }
 
@@ -13,3 +25,4 @@ h1 {
   font-size: 30px;
   text-align: center;
 }
+
