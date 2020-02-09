@@ -29,7 +29,6 @@ function Contact(props) {
 
     const { handleSubmit, handleChange, handleBlur, info, errors, isSubmitting, isError, isLoading } = ValidationForm(infoInitial,ValidateInputs);
     const classes = useStyles();
-    const load = true;
     return (
         <div className="Contacto">
             <h1>Contacto</h1>
