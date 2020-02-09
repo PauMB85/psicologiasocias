@@ -9,11 +9,11 @@ function Navbar(props) {
 
             <div className="navbar">
                 <div className="navbar__text">
-                    psicologia socias
+                    <a href="/" className="navbar__text--decoration">psicologia socias</a>
                 </div>
-                <div className="navabr__links">
-                    <Button href="/#">Sobre mí</Button>
-                    <Button href="/#">Contacto</Button>
+                <div className="navbar__links">
+                    <Button href="/aboutme">Sobre mí</Button>
+                    <Button href="/contact">Contacto</Button>
                 </div>
             </div>
         

@@ -12,14 +12,24 @@
         @media screen and (min-width: $phone-size) {
             flex-direction: row;
             flex-wrap: wrap;
+            justify-content: space-between;
         }
         .terapia__services--card {
             margin:15px auto;
 
             @media screen and (min-width: $phone-size) {
-                margin:20px;
-                width: 33%;
+                max-width: 48%;
+                margin:20px 5px;
             }
+
+            @media screen and (min-width: $desktop-size) {
+                max-width: 32%;
+                margin:20px 5px;
+            }
+
+            
+
+            
         }
     }
     

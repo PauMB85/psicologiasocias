@@ -13,9 +13,13 @@
 
         .navbar__text {
             padding: 10px;
+            .navbar__text--decoration {
+                text-decoration: none;
+                color: black;
+            }
         }
 
-        .navabr__links {
+        .navbar__links {
             width: 50%;
             display: flex;
             justify-content: center;
