@@ -1,0 +1,20 @@
+.Navbar {
+
+    padding: 15px;
+
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .navbar__text {
+            padding: 10px;
+        }
+
+        .navabr__links {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
