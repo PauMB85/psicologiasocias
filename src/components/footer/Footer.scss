@@ -1,0 +1,21 @@
+.Footer {
+    .footer__paper{
+        background-color: black;
+        .footer__paper--content {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            .paper__social {
+                .paper__social--icons {
+                    height: 36px;
+                    width: 36px;
+                }
+            }
+            .paper__rights {
+                margin: 20px;
+                color: #ffffff;
+                pointer-events: none;
+            }
+        }
+    }
+}

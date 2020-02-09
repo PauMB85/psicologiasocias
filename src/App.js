@@ -8,6 +8,7 @@ import Terapias from './components/terapias/Terapias';
 import { BrowserRouter, Switch, Route} from "react-router-dom";
 import Aboutme from './components/aboutme/Aboutme';
 import Contact from './components/contacto/Contact';
+import Footer from './components/footer/Footer';
 
 const routes = [
   {
@@ -38,6 +39,7 @@ function App() {
                 ))}
             </Switch>
           </Container>
+          <Footer/>
         </BrowserRouter>
       </div>
     </React.Fragment>
